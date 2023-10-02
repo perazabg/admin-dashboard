@@ -1,0 +1,36 @@
+*{
+    border: 1px red dashed;
+  } 
+  
+  body{
+    margin: 0;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+  }
+  
+  .header{
+    background-color: #60a5fa;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-column: 2/3;
+  }
+  
+  .search{
+    
+  }
+  
+  .sidebar{
+    background-color: #f87171;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .main{
+    background-color: #a3e635;
+    display: grid;
+    grid-column: 2/3;
+  }
