@@ -1,33 +1,50 @@
 *{
-    border: 1px red dashed;
-  } 
-  
-  body{
-    margin: 0;
-  }
-  .container{
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    
-  }
-  
-  .header{
-    background-color: #60a5fa;
-    display: grid;
-    grid-template-rows: 1fr 5fr;
-    grid-column: 2/3;
-  }
-  
+  border: 1px black dashed;
+} 
 
-  .sidebar{
-    background-color: #f87171;
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/2;
-  }
+body{
+  margin: 0;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
   
-  .main{
-    background-color: #a3e635;
-    display: grid;
-    grid-column: 2/3;
-  }
+}
+
+.header{
+  background-color: #60a5fa;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  grid-column: 2/3;
+}
+
+.profileHeader{
+  display: flex;
+  justify-content: space-between;
+}
+
+.pHeadLeft{
+  margin: 0;
+}
+
+.pHeadRight ul{
+  list-style: none;
+}
+
+.sidebar{
+  background-color: #f87171;
+  display: grid;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.projects{
+  background-color: #a3e635;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+}
+.card{
+  background-color: azure;
+  width: 150px;
+  height: 120px;
+}
