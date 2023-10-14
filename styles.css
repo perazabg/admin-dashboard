@@ -11,6 +11,7 @@ body{
   
 }
 
+/* START OF HEADER SECTION */
 .header{
   background-color: #60a5fa;
   display: grid;
@@ -36,6 +37,7 @@ body{
   width: 300px;
 }
 
+/* START OF SIDEBAR SECTION*/
 .sidebar{
   background-color: #f87171;
   display: grid;
@@ -43,6 +45,7 @@ body{
   grid-row: 1/4;
 }
 
+/* START OF PROJECTS SECTION*/
 .projects{
   background-color: #a3e635;
   display: grid;
