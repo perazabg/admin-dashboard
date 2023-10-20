@@ -55,12 +55,14 @@ ul {
 .searchBar{
 	width: 300px;
 	border-radius: 8px;
+	border: none;
+	box-shadow: 0px 3px 8px 0px #adadad;
 }
 
 /* START OF SIDEBAR SECTION*/
 .sidebar {
 	color: #efefef;
-	background-color: #5a5a5a;
+	background-color: #006aff;
 	display: grid;
 	grid-column: 1/2;
 	grid-row: 1/4;
@@ -74,6 +76,7 @@ ul {
 	display: grid;
 	grid-template-columns: 4fr 1fr;
 	background-color: #e3e3e3;
+	box-shadow: inset 0px 3px 5px 0px #adadad;
 }
 .projects {
 	display: grid;
@@ -86,7 +89,7 @@ ul {
 	gap: 15px;
 }
 
-.card {
+.card, .announcements, .trending {
 	background-color: white;
 	padding: 15px;
 	box-shadow: 0px 3px 5px 2px #adadad;
@@ -94,7 +97,7 @@ ul {
 	border-left: 8px solid yellow;
 }
 
-.projectsTitle{
+.projectsTitle {
 	grid-row: 1/2;
 	height: 15px;
 	padding-bottom: 15px;
@@ -107,11 +110,18 @@ ul {
 	padding: 15px;
 	display: grid;
 	gap: 15px;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 .announcements, .trending{
 	box-shadow: 0px 3px 5px 2px #adadad;
 	border-radius: 8px;
 	background-color: white;
+}
+
+.announcementsTitle, .trendingTitle{
+	height: 15px;
+	padding-bottom: 15px;
 }
 
